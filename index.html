@@ -8,16 +8,15 @@
     <meta name="googlebot" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!--     <script type="text/javascript" src="/js/lib/dummy.js"></script> -->
 
-    <script type="text/javascript" src="/js/lib/dummy.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+<!--     <link rel="stylesheet" type="text/css" href="/css/result-light.css"> -->
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.js"></script>
+<!--     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.js"></script> -->
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+<!--     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"> -->
 
     <style id="compiled-css" type="text/css">
       span.textLtr {unicode-bidi: bidi-override; direction: rtl}
@@ -31,34 +30,15 @@
       <h2 id="how">How?</h2>
       <p>Application developers would insert client-side code that makes a simple, behind the scenes, web request to a randomly selected site from a list of important Russian services. Each request would come from the client and not the host which is critical to the distribution of the effort.</p>
       <h3 id="for-example">For Example:</h3>
-      <p>A website like google.com might add a small snippet of javascript code that would simply make the following asynchronous web request, effectively ignoring the result, each time a user searches the internet: <pre>GET <span class="textLtr">/ur.tnemnrevog.www//:sptth</span>.</pre></p>
+      <p>A website like google.com might add a small snippet of javascript code that would simply make the following asynchronous web request, effectively ignoring the result, each time a user searches the internet: <pre><code>GET <span class="textLtr">/ur.tnemnrevog.www//:sptth</span>.</code></pre></p>
       <p>Additionally, <span class="textLtr">ur.tnemnrevog</span> would simply be one from a long list of resources identified as high-value targets. A list possibly influenced by the resources identified by IT ARMY of Ukraine and others. Each request might randomly select a resource from the list before any attempt to access the resource is made.</p>
       <p>Pseudocode:</p>
-    
-    <ul>
-        <li>Unordered lists, and:<ol>
-            <li>One</li>
-            <li>Two</li>
-            <li>Three</li>
-          </ol>
-        </li>
-        <li>More</li>
-      </ul>
-      <blockquote>
-        <p>Blockquote</p>
-      </blockquote>
-      <p>And <strong>bold</strong>, <em>italics</em>, and even <em>italics and later <strong>bold</strong></em>. Even <del>strikethrough</del>. <a href="https://markdowntohtml.com">A link</a> to somewhere.</p>
-      <p>And code highlighting:</p>
-      <pre><code class="lang-js"><span class="hljs-keyword">var</span> foo = <span class="hljs-string">'bar'</span>;
-
-<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">baz</span><span class="hljs-params">(s)</span> </span>{
-   <span class="hljs-keyword">return</span> foo + <span class="hljs-string">':'</span> + s;
-}
-</code></pre>
-      <p>Or inline code like <code>var foo = 'bar';</code>.</p>
-      <p>Or an image of bears</p>
-      <p><img src="http://placebear.com/200/200" alt="bears"></p>
-      <p>The end ...</p>
+      <pre>
+      <code>
+      myResource = randomResourceFromList()
+      makeRequest(myResource)
+      </code>
+      </pre>
     </div>
   </body>
 
